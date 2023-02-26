@@ -19,7 +19,19 @@ console.log("This value from stringNumbers", stringNumbers);
 
 let firstNumber = 1;
 let secondNumber = 1.3;
+let noNumber = Nan;
+let infinityValue = Infinity;
+
 console.log('Max value = ', Number.MAX_VALUE);
 console.log('Min value = ', Number.MIN_VALUE);
 
 console.log(firstNumber);
+
+//Bolean
+let trueValue = true;
+let falseValue = false;
+
+let noValue = null;
+let noFind = undefined;
+
+
