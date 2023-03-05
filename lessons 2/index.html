@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //let num = prompt("");
+
+        //const rez = num === 10? "Вірно" : "Неправильно";
+
+        //console.error(rez);
+
+        const min = parseInt(prompt("число від 0 до 59"));
+
+        if(min > 0 && min < 15){
+            console.warn("У першу");
+        }else if (min <= 30){
+            console.warn("У другу");
+        }else if(min <= 45){
+            console.info("У третю");  
+        }else if(min <= 59){
+            console.info("У четверту");  
+        }else{
+            console.error("Error!!!")
+        }
+    </script>
+    
+</body>
+</html>
