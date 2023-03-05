@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let quantity = 10;   // количество единиц товара.
+        const price = 100;  // цена за единицу товара.
+        const discount = 0.75;  // Скидка на общую стоимость - 25%.
+        let cost;               // общая стоимость.
+
+  
+
+        cost = quantity >= 10 ? quantity * price * discount : quantity * price;
+
+        document.write("Общая стоимость товара составляет: " + cost + " у.е.");
+
+    </script>
+
+</body>
+</html>
