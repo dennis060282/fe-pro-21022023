@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dz_3_3_Kovalenko</title>
+</head>
+    <body>
+        <script>
+
+// Перепишіть функцію за допомогою оператора '?' або '||'
+// Наступна функція повертає true, якщо параметр age більше 18. В іншому випадку вона ставить запитання confirm і повертає його результат.
+// function checkAge(age) {
+// if (age > 18) {
+// return true;
+// } else {
+// return confirm('Батьки дозволили?');
+// } }
+
+    let age = parseInt(prompt('Введіть ваш вік'));
+    function checkAge(age){
+        return (age > 18) ? true : confirm ('Батьки дозволили?');    
+    }
+
+    console.log(checkAge(age)); 
+
+        </script>
+    </body>
+</html>
