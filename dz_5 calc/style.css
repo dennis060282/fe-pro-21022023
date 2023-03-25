@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(94, 12, 246);
+    text-align: center;
+}
