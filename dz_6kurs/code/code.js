@@ -6,41 +6,41 @@ document.body.style.margin = `0 auto`;
 document.body.style.fontFamily = `'Manrope', sans-serif`;
 
 const countryFlag = [
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -623px 0px;"></div>`, "currencyFlag":`Австралійський долар`,"current":`AUD`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: 1px -48px;"></div>`, "currencyFlag":`Азербайджанський манат`,"current":`AZN`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -95px -96px;"></div>`, "currencyFlag":`Білоруський рубель`,"current":`BYN`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -191px -96px;"></div>`, "currencyFlag":`Канадський долар`,"current":`CAD`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -431px -96px;"></div>`, "currencyFlag":`Швейцарський франк`,"current":`CHF`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -671px -96px;"></div>`, "currencyFlag":`Юань Женьміньбі`,"current":`CNY`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -287px -144px;"></div>`, "currencyFlag":`Чеська крона`,"current":`CZK`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -431px -144px;"></div>`, "currencyFlag":`Данська крона`,"current":`DKK`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -191px -192px;"></div>`, "currencyFlag":`Евро`,"current":`EUR`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -575px -192px;"></div>`, "currencyFlag":`Фунт стерлінгів`,"current":`GBP`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -671px -192px;"></div>`, "currencyFlag":`Грузинський ларі`,"current":`GEL`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: 1px -288px;"></div></td>`, "currencyFlag":`Угорський форинт`,"current":`HUF`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -191px -288px;"></div>`, "currencyFlag":`Ізраїльський шекель`,"current":`ILS`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -671px -288px;"></div>`, "currencyFlag":`Японська ієна`,"current":`JPY`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -430px -338px;"></div>`, "currencyFlag":`Казахстанський тенге`,"current":`KZT`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -335px -383px;"></div>`, "currencyFlag":`Молдовський лей`,"current":`MDL`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -143px -480px;"></div>`, "currencyFlag":`Норвезька крона`,"current":`NOK`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -719px -480px;"></div>`, "currencyFlag":`Злотий`,"current":`PLN`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -719px -528px;"></div>`, "currencyFlag":`Шведська крона`,"current":`SEK`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: 1px -578px;"></div>`, "currencyFlag":`Сінгапурський долар`,"current":`SGD`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -287px -625px;"></div>`, "currencyFlag":`Туркменський манат`,"current":`TMT`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -430px -625px;"></div>`, "currencyFlag":`Турецька ліра`,"current":`TRY`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -671px -625px;"></div>`, "currencyFlag":`Українська гривня`,"current":`UAH`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: 1px -673px;"></div>`, "currencyFlag":`Долар США`,"current":`USD`},
-    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/img/flags.png); background-position: -95px -673px;"></div>`, "currencyFlag":`Узбецький сум`,"current":`UZS`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -623px 0px;"></div>`, "currencyFlag":`Австралійський долар`,"current":`AUD`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: 1px -48px;"></div>`, "currencyFlag":`Азербайджанський манат`,"current":`AZN`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -95px -96px;"></div>`, "currencyFlag":`Білоруський рубель`,"current":`BYN`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -191px -96px;"></div>`, "currencyFlag":`Канадський долар`,"current":`CAD`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -431px -96px;"></div>`, "currencyFlag":`Швейцарський франк`,"current":`CHF`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -671px -96px;"></div>`, "currencyFlag":`Юань Женьміньбі`,"current":`CNY`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -287px -144px;"></div>`, "currencyFlag":`Чеська крона`,"current":`CZK`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -431px -144px;"></div>`, "currencyFlag":`Данська крона`,"current":`DKK`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -191px -192px;"></div>`, "currencyFlag":`Евро`,"current":`EUR`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -575px -192px;"></div>`, "currencyFlag":`Фунт стерлінгів`,"current":`GBP`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -671px -192px;"></div>`, "currencyFlag":`Грузинський ларі`,"current":`GEL`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: 1px -288px;"></div></td>`, "currencyFlag":`Угорський форинт`,"current":`HUF`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -191px -288px;"></div>`, "currencyFlag":`Ізраїльський шекель`,"current":`ILS`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -671px -288px;"></div>`, "currencyFlag":`Японська ієна`,"current":`JPY`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -430px -338px;"></div>`, "currencyFlag":`Казахстанський тенге`,"current":`KZT`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -335px -383px;"></div>`, "currencyFlag":`Молдовський лей`,"current":`MDL`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -143px -480px;"></div>`, "currencyFlag":`Норвезька крона`,"current":`NOK`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -719px -480px;"></div>`, "currencyFlag":`Злотий`,"current":`PLN`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -719px -528px;"></div>`, "currencyFlag":`Шведська крона`,"current":`SEK`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: 1px -578px;"></div>`, "currencyFlag":`Сінгапурський долар`,"current":`SGD`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -287px -625px;"></div>`, "currencyFlag":`Туркменський манат`,"current":`TMT`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -430px -625px;"></div>`, "currencyFlag":`Турецька ліра`,"current":`TRY`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -671px -625px;"></div>`, "currencyFlag":`Українська гривня`,"current":`UAH`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: 1px -673px;"></div>`, "currencyFlag":`Долар США`,"current":`USD`},
+    {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -95px -673px;"></div>`, "currencyFlag":`Узбецький сум`,"current":`UZS`},
     {"flag":`<div style="width: 48px; height: 40px; background-image: none;"></div>`, "currencyFlag":`Золото`,"current":`XAU`}
 ]
 
 document.write(`<div id="bg">`);
     document.write(`<div id="" style="display:flex; margin: 5% 5%;">`); 
        document.write(`<div id="data" style="display:flex; width: 23%;flex-wrap: wrap; justify-content: space-evenly;">`); 
-           document.write(`<div id="dat" style="margin:10px 10px;">Дата<br><h1 style="color:coral; margin:0;" id="num">26</h1></div>`);
-           document.write(`<div id="dat" style="margin:10px 10px;">Data<br><h1 style="color:coral; margin:0;" id="num">03</h1></div>`);
-           document.write(`<div id="dat" style="margin:10px 10px;">Час<br><h1 style="color:coral; margin:0;" id="num">16</h1></div>`);
-           document.write(`<div id="dat" style="margin:10px 10px;">Time<br><h1 style="color:coral; margin:0;" id="num">00</h1></div>`);
+           document.write(`<div id="dat" style="margin:10px 10px;">Дата<br><h1 style="color:coral; margin:0;" id="num">05</h1></div>`);
+           document.write(`<div id="dat" style="margin:10px 10px;">Data<br><h1 style="color:coral; margin:0;" id="num">04</h1></div>`);
+           document.write(`<div id="dat" style="margin:10px 10px;">Час<br><h1 style="color:coral; margin:0;" id="num">23</h1></div>`);
+           document.write(`<div id="dat" style="margin:10px 10px;">Time<br><h1 style="color:coral; margin:0;" id="num">16</h1></div>`);
        document.write(`</div>`);
        document.write(`<div id="" style="width: 70%; text-align: center;">`); 
            document.write(`<h1>КУРСИ ОБМІНУ ВАЛЮТ<br>
