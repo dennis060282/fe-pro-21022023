@@ -1,9 +1,9 @@
-const data = {"date":"05.04.2023","bank":"PB","baseCurrency":980,"baseCurrencyLit":"UAH","exchangeRate":[{"baseCurrency":"UAH","currency":"AUD","saleRateNB":24.4845000,"purchaseRateNB":24.4845000},{"baseCurrency":"UAH","currency":"AZN","saleRateNB":21.5414000,"purchaseRateNB":21.5414000},{"baseCurrency":"UAH","currency":"BYN","saleRateNB":13.2919000,"purchaseRateNB":13.2919000},{"baseCurrency":"UAH","currency":"CAD","saleRateNB":26.7412000,"purchaseRateNB":26.7412000},{"baseCurrency":"UAH","currency":"CHF","saleRateNB":39.8872000,"purchaseRateNB":39.8872000,"saleRate":41.7300000,"purchaseRate":39.8000000},{"baseCurrency":"UAH","currency":"CNY","saleRateNB":5.3545000,"purchaseRateNB":5.3545000},{"baseCurrency":"UAH","currency":"CZK","saleRateNB":1.6802000,"purchaseRateNB":1.6802000,"saleRate":1.7425000,"purchaseRate":1.6600000},{"baseCurrency":"UAH","currency":"DKK","saleRateNB":5.3391000,"purchaseRateNB":5.3391000},{"baseCurrency":"UAH","currency":"EUR","saleRateNB":39.7665000,"purchaseRateNB":39.7665000,"saleRate":41.1000000,"purchaseRate":40.1000000},{"baseCurrency":"UAH","currency":"GBP","saleRateNB":44.8861000,"purchaseRateNB":44.8861000,"saleRate":46.8100000,"purchaseRate":44.6200000},{"baseCurrency":"UAH","currency":"GEL","saleRateNB":13.9965000,"purchaseRateNB":13.9965000},{"baseCurrency":"UAH","currency":"HUF","saleRateNB":0.1033480,"purchaseRateNB":0.1033480},{"baseCurrency":"UAH","currency":"ILS","saleRateNB":10.1130000,"purchaseRateNB":10.1130000},{"baseCurrency":"UAH","currency":"JPY","saleRateNB":0.2781000,"purchaseRateNB":0.2781000},{"baseCurrency":"UAH","currency":"KZT","saleRateNB":0.0787490,"purchaseRateNB":0.0787490},{"baseCurrency":"UAH","currency":"MDL","saleRateNB":1.9693000,"purchaseRateNB":1.9693000},{"baseCurrency":"UAH","currency":"NOK","saleRateNB":3.5194000,"purchaseRateNB":3.5194000},{"baseCurrency":"UAH","currency":"PLN","saleRateNB":8.4883000,"purchaseRateNB":8.4883000,"saleRate":8.7900000,"purchaseRate":8.3800000},{"baseCurrency":"UAH","currency":"SEK","saleRateNB":3.5410000,"purchaseRateNB":3.5410000},{"baseCurrency":"UAH","currency":"SGD","saleRateNB":27.5532000,"purchaseRateNB":27.5532000},{"baseCurrency":"UAH","currency":"TMT","saleRateNB":10.4482000,"purchaseRateNB":10.4482000},{"baseCurrency":"UAH","currency":"TRY","saleRateNB":1.9202000,"purchaseRateNB":1.9202000},{"baseCurrency":"UAH","currency":"UAH","saleRateNB":1.0000000,"purchaseRateNB":1.0000000},{"baseCurrency":"UAH","currency":"USD","saleRateNB":36.5686000,"purchaseRateNB":36.5686000,"saleRate":38.3500000,"purchaseRate":37.8500000},{"baseCurrency":"UAH","currency":"UZS","saleRateNB":0.0032259,"purchaseRateNB":0.0032259},{"baseCurrency":"UAH","currency":"XAU","saleRateNB":72070.4900000,"purchaseRateNB":72070.4900000}]};
+const data = {"date":"05.04.2023","bank":"PB","baseCurrency":980,"baseCurrencyLit":"UAH","exchangeRate":[{"baseCurrency":"UAH","currency":"AUD","saleRateNB":25.4845000,"purchaseRateNB":26.4845000},{"baseCurrency":"UAH","currency":"AZN","saleRateNB":24.5414000,"purchaseRateNB":26.5414000},{"baseCurrency":"UAH","currency":"BYN","saleRateNB":15.2919000,"purchaseRateNB":12.2919000},{"baseCurrency":"UAH","currency":"CAD","saleRateNB":28.7412000,"purchaseRateNB":26.7412000},{"baseCurrency":"UAH","currency":"CHF","saleRateNB":40.872000,"purchaseRateNB":41.8872000,"saleRate":42.7300000,"purchaseRate":40.8000000},{"baseCurrency":"UAH","currency":"CNY","saleRateNB":7.3545000,"purchaseRateNB":8.3545000},{"baseCurrency":"UAH","currency":"CZK","saleRateNB":2.6802000,"purchaseRateNB":3.6802000,"saleRate":3.7425000,"purchaseRate":5.6600000},{"baseCurrency":"UAH","currency":"DKK","saleRateNB":6.3391000,"purchaseRateNB":4.3391000},{"baseCurrency":"UAH","currency":"EUR","saleRateNB":39.7665000,"purchaseRateNB":38.7665000,"saleRate":39.1000000,"purchaseRate":42.1000000},{"baseCurrency":"UAH","currency":"GBP","saleRateNB":46.8861000,"purchaseRateNB":45.8861000,"saleRate":46.8100000,"purchaseRate":47.6200000},{"baseCurrency":"UAH","currency":"GEL","saleRateNB":15.9965000,"purchaseRateNB":17.9965000},{"baseCurrency":"UAH","currency":"HUF","saleRateNB":0.1033480,"purchaseRateNB":0.1033480},{"baseCurrency":"UAH","currency":"ILS","saleRateNB":10.1130000,"purchaseRateNB":10.1130000},{"baseCurrency":"UAH","currency":"JPY","saleRateNB":0.2781000,"purchaseRateNB":0.2781000},{"baseCurrency":"UAH","currency":"KZT","saleRateNB":0.0787490,"purchaseRateNB":0.0787490},{"baseCurrency":"UAH","currency":"MDL","saleRateNB":1.9693000,"purchaseRateNB":1.9693000},{"baseCurrency":"UAH","currency":"NOK","saleRateNB":3.5194000,"purchaseRateNB":3.5194000},{"baseCurrency":"UAH","currency":"PLN","saleRateNB":8.4883000,"purchaseRateNB":8.4883000,"saleRate":8.7900000,"purchaseRate":8.3800000},{"baseCurrency":"UAH","currency":"SEK","saleRateNB":3.5410000,"purchaseRateNB":3.5410000},{"baseCurrency":"UAH","currency":"SGD","saleRateNB":27.5532000,"purchaseRateNB":27.5532000},{"baseCurrency":"UAH","currency":"TMT","saleRateNB":10.4482000,"purchaseRateNB":10.4482000},{"baseCurrency":"UAH","currency":"TRY","saleRateNB":1.9202000,"purchaseRateNB":1.9202000},{"baseCurrency":"UAH","currency":"UAH","saleRateNB":3.5000000,"purchaseRateNB":4.0000000},{"baseCurrency":"UAH","currency":"USD","saleRateNB":36.5686000,"purchaseRateNB":36.5686000,"saleRate":38.3500000,"purchaseRate":37.8500000},{"baseCurrency":"UAH","currency":"UZS","saleRateNB":0.0532259,"purchaseRateNB":0.0732259},{"baseCurrency":"UAH","currency":"XAU","saleRateNB":77870.4900000,"purchaseRateNB":75670.4900000}]};
 console.log(data);
 document.body.style.width = `700px`;
-document.body.style.color = `white`;
+document.body.style.color = `yellow`;
 document.body.style.margin = `0 auto`;
-document.body.style.fontFamily = `'Manrope', sans-serif`;
+document.body.style.fontFamily = `'Arial', times new roman`;
 
 const countryFlag = [
     {"flag":`<div style="width: 48px; height: 40px; background-image: url(/dz_6kurs/img/flags.png); background-position: -623px 0px;"></div>`, "currencyFlag":`Австралійський долар`,"current":`AUD`},
@@ -43,7 +43,7 @@ document.write(`<div id="bg">`);
            document.write(`<div id="dat" style="margin:10px 10px;">Time<br><h1 style="color:coral; margin:0;" id="num">16</h1></div>`);
        document.write(`</div>`);
        document.write(`<div id="" style="width: 70%; text-align: center;">`); 
-           document.write(`<h1>КУРСИ ОБМІНУ ВАЛЮТ<br>
+           document.write(`<h1>КУРС ОБМІНУ ВАЛЮТ<br>
                            <h2>EXCHANGE RATES`);
        document.write(`</div>`);
     document.write(`</div>`);
@@ -53,8 +53,8 @@ document.write(`<div id="bg">`);
                  document.write(`<td style ="padding: 10px;"></td>
                     <td style ="padding: 10px;"></td>
                     <td style ="padding: 10px;"></td>
-                    <td style ="padding: 10px;"><h4 style="margin: 0;">Купівля</h4><br>We buy at</td>
-                    <td style ="padding: 10px;"><h4 style="margin: 0;">Продаж</h4><br>We sell at</td>`)
+                    <td style ="padding: 10px;"><h4 style="margin: 0;">Купівля</h4><br>&nbsp &nbsp Buy</td>
+                    <td style ="padding: 10px;"><h4 style="margin: 0;">Продаж</h4><br>&nbsp &nbsp Sale</td>`)
             document.write(`</tr>`);
             for(i = 0; i < data.exchangeRate.length; i++){
                 document.write(`<tr>`);
@@ -82,7 +82,7 @@ document.write(`<div id="bg">`);
     document.write(`</div>`);
 document.write(`</div>`);
 
-document.getElementById(`bg`).style.backgroundColor = `black`;
+document.getElementById(`bg`).style.backgroundColor = `green`;
 document.getElementById(`bg`).style.width = `100%`;
 document.getElementById(`bg`).style.border = `5px solid burlywood`;
 
