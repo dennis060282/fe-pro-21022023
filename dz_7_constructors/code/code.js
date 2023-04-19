@@ -16,15 +16,15 @@ function Animal(typeOfAnimal, food, location) {
     this.location = location;
 }
 Animal.prototype.makeNoise = function () {
-    console.log(`Your pet is sleeping`)
+    console.log(`Your pet is sleep`)
 }
 
 Animal.prototype.eat = function () {
-    console.log(`Your pet should eat 5 times a day`)
+    console.log(`Your pet should eat 3 times a day`)
 }
 
 Animal.prototype.sleep = function () {
-    console.log(`Your pet likes sleeping`)
+    console.log(`Your pet likes sleep`)
 }
 
 
@@ -36,7 +36,7 @@ function Dog(typeOfAnimal, food, location, favouriteToy) {
     this.favouriteToy = favouriteToy;
 }
 Dog.prototype = new Animal();
-Dog.prototype.makeNoise = function () { console.log(`Your dog is sleeping`) };
+Dog.prototype.makeNoise = function () { console.log(`Your dog is sleep`) };
 Dog.prototype.eat = function () { console.log(`Your dog should eat pet food instead of his favourite ${this.favouriteToy}`) };
 
 
@@ -48,7 +48,7 @@ function Cat(typeOfAnimal, food, location, typeOfFur) {
     this.typeOfFur = typeOfFur;
 }
 Cat.prototype = new Animal()
-Cat.prototype.makeNoise = function () { console.log(`Your cat is sleeping`) }
+Cat.prototype.makeNoise = function () { console.log(`Your cat is sleep`) }
 Cat.prototype.eat = function () { console.log(`Your cat likes cakes as well as fish`) }
 
 
@@ -60,13 +60,13 @@ function Horse(typeOfAnimal, food, location, colour) {
     this.colour = colour;
 }
 Horse.prototype = new Animal()
-Horse.prototype.makeNoise = function () { console.log(`Your horse is sleeping`) }
-Horse.prototype.eat = function () { console.log(`Your horse likes to eat carrot`) }
+Horse.prototype.makeNoise = function () { console.log(`Your horse is sleep`) }
+Horse.prototype.eat = function () { console.log(`Your horse likes to eat apple`) }
 
 
-const cat = new Cat("Cat", "fish", "indore", "long");
-const dog = new Dog("Dog", "bones", "outdoor", "ball");
-const horse = new Horse("Horse", "carrot", "farm", "brown")
+const cat = new Cat("Cat", "fish", "outdoor", "smooth");
+const dog = new Dog("Dog", "meat", "indoor", "bone");
+const horse = new Horse("Horse", "apple", "field", "white")
 
 
 /* Конструктор Veterinar*/
