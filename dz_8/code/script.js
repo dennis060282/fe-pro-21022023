@@ -109,11 +109,11 @@ const ivecoDriver = new Driver('Войтов Володимир Анатолій
 
 //  Прототипи класу Engine
 
-const porscheEngine = new Engine(500, 'Bmw');
-const ferraryEngine = new Engine(550, 'Toyota');
+const bmwEngine = new Engine(500, 'Bmw');
+const toyotaEngine = new Engine(550, 'Toyota');
 
-const volvoEngine = new Engine(350, 'Ford');
-const manEngine = new Engine(330, 'Iveco');
+const fordEngine = new Engine(350, 'Ford');
+const ivecoEngine = new Engine(330, 'Iveco');
 
 //  Протоотипи класу Car
 const car1 = new Car('Bmw', 'sportcar', 1500, bmwDriver, bmwEngine);
