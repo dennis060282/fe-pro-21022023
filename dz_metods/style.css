@@ -1,0 +1,84 @@
+body {
+    width: 700px;
+    margin: 0 auto 20px;
+    background-color: rgb(209, 209, 226);
+}
+
+.buttonFirst {
+    display: inline;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-left: 5px;
+    display: block;
+    background-color: rgb(35, 35, 126);
+    color: white;
+    border-radius: 3px;
+    border: solid 1px rgb(35, 35, 126) ;
+}
+
+input {
+    margin: 5px;
+    width: 35%;
+}
+
+textarea {
+    display: block;
+    margin: 5px ;
+    width: 100%;
+   
+}
+
+#divTaskThree {
+    background-color: rgb(84, 137, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap:break-word;
+    width: 550px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 300px;
+   display: block;
+   text-align: center;
+
+}
+
+p {
+    background-color: rgb(84, 137, 235);
+    width: 50px;
+    margin: 5px;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+input[type="button"] {
+    background-color: rgb(35, 35, 126);
+    color: white;
+    border-radius: 3px;
+    border: solid 1px rgb(35, 35, 126) ; 
+}
