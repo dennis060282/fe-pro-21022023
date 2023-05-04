@@ -56,7 +56,7 @@ btnTwo.onclick = () => {
 
 //4. Створіть картинку та кнопку з назвою "Змінити картинку", зробіть так щоб при натиску кнопки картинки мінялись
 
-const pictures = ["https://itproger.com/img/courses/1476977240.jpg", "https://itproger.com/img/courses/1476977488.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"]
+const pictures = ["https://itproger.com/img/courses/1621164792.jpg", "https://itproger.com/img/courses/1675418421.jpg", "https://itproger.com/img/courses/1677920545.jpg"]
 
 const image = document.createElement("img");
 image.alt = "image"
