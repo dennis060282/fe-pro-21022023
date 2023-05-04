@@ -1,7 +1,7 @@
 body {
-    width: 700px;
+    width: 800px;
     margin: 0 auto 20px;
-    background-color: rgb(209, 209, 226);
+    background-color: rgb(159, 159, 217);
 }
 
 .buttonFirst {
@@ -12,7 +12,7 @@ section {
     justify-content: space-between;
 }
 div {
-    background-color: red;
+    background-color: rgb(171, 11, 11);
     height: 100px;
     width: 100px;
     margin: 5px;
@@ -25,10 +25,10 @@ div {
 button {
     margin-left: 5px;
     display: block;
-    background-color: rgb(35, 35, 126);
+    background-color: rgb(171, 11, 196);
     color: white;
     border-radius: 3px;
-    border: solid 1px rgb(35, 35, 126) ;
+    border: solid 1px rgb(171, 11, 196) ;
 }
 
 input {
@@ -44,7 +44,7 @@ textarea {
 }
 
 #divTaskThree {
-    background-color: rgb(84, 137, 235);
+    background-color: rgb(17, 62, 145);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ img {
 }
 
 p {
-    background-color: rgb(84, 137, 235);
+    background-color: rgb(17, 62, 145);
     width: 50px;
     margin: 5px;
 }
@@ -77,8 +77,8 @@ hr {
 }
 
 input[type="button"] {
-    background-color: rgb(35, 35, 126);
+    background-color: rgb(171, 11, 196);
     color: white;
     border-radius: 3px;
-    border: solid 1px rgb(35, 35, 126) ; 
+    border: solid 1px rgb(171, 11, 196) ; 
 }
