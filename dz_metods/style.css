@@ -13,10 +13,10 @@ section {
 }
 div {
     background-color: rgb(171, 11, 11);
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: 5px solid rgb(206, 7, 7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@ button {
     background-color: rgb(171, 11, 196);
     color: white;
     border-radius: 3px;
-    border: solid 1px rgb(171, 11, 196) ;
+    border: solid 5px rgb(171, 11, 196) ;
 }
 
 input {
@@ -54,7 +54,7 @@ textarea {
 
 img {
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     height: 300px;
    display: block;
    text-align: center;
