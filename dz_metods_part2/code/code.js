@@ -4,7 +4,7 @@ const ul = document.querySelector(`ul`),
           const ul = document.querySelector(`ul`),
           [...uls] = document.querySelector(`ul`).children;
           uls.forEach((el)=>{
-             el.style.color = "black"
+             el.style.color = "blacke"
           })
       }
 
