@@ -4,7 +4,7 @@ const ul = document.querySelector(`ul`),
           const ul = document.querySelector(`ul`),
           [...uls] = document.querySelector(`ul`).children;
           uls.forEach((el)=>{
-             el.style.color = "blacke"
+             el.style.color = "black"
           })
       }
 
@@ -50,7 +50,7 @@ const createNewChild = () => {
         const li = document.createElement(`li`);
         ul.append(li);
         const [...uls] = document.querySelector(`ul`).children;
-        li.innerText = `List Item ${uls.length}`;       
+        li.innerText = `Element ${uls.length}`;       
 }
 
 
@@ -66,9 +66,9 @@ const createNewChildAtStart = () => {
     const li = document.createElement(`li`);
     ul.prepend(li);
     const [...uls] = document.querySelector(`ul`).children;
-    li.innerText = `List Item ${uls.length}`;
+    li.innerText = `Element ${uls.length}`;
     let num = 1;
     uls.forEach((el)=>{
-        el.innerText = `List Item ${num++}`;
+        el.innerText = `Element ${num++}`;
      }) 
 }
