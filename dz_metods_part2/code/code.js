@@ -17,7 +17,7 @@ const selectFirstChild = () => {
 
 const selectLastChild = () => {
     blackColor();
-    ul.lastElementChild.style.color = `yellow`;
+    ul.lastElementChild.style.color = `red`;
 }
 
 
