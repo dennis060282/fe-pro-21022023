@@ -1,0 +1,18 @@
+.focus{
+    border: 5px solid green;
+}
+
+.error {
+    border: 5px solid red;
+}
+
+.valid {
+    color: green;
+}
+
+input{
+    padding: .4rem;
+    width: 300px;
+}
+
+
