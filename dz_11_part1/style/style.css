@@ -1,18 +1,18 @@
 .focus{
-    border: 5px solid green;
+    border: 15px solid rgb(15, 206, 15);
 }
 
 .error {
-    border: 5px solid red;
+    border: 15px solid rgb(214, 16, 16);
 }
 
 .valid {
-    color: green;
+    color: rgb(9, 166, 9);
 }
 
 input{
     padding: .4rem;
-    width: 300px;
+    width: 400px;
 }
 
 
