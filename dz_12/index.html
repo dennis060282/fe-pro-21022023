@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dz_12</title>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    input,
+    select {
+      margin-top: 10px;
+      width: 170px;
+      height: 20px;
+    }
+
+    div {
+      padding-left: 20px;
+    }
+
+    hr {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    h1 {
+      font-size: 2 rem;
+      margin: 0 auto 20px;
+    }
+
+    .green-border {
+      border: 2px solid rgb(22, 220, 22);
+    }
+
+    .green-outline {
+      outline-color: rgb(22, 220, 22);
+    }
+
+    .red-border {
+      border: 2px solid red;
+    }
+
+    .operator-pic {
+      max-height: 20px;
+    }
+
+    #task4 div {
+      height: 26px;
+      margin: 10px 0 10px;
+      padding-left: 20px;
+    }
+
+    #task4 input {
+      margin: 0;
+    }
+
+    #task4 span {
+      cursor: pointer;
+      color: green;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Task 1, 2</h1>
+  <p id="test"></p>
+  <form id="task_1">
+    <div><input type="text" data-length="7"></div>
+    <div><input type="text" data-length="8"></div>
+    <div><input type="text" data-length="20"></div>
+    <div><input type="text" data-length="2"></div>
+  </form>
+
+  <hr>
+  <h1>Task 3</h1>
+  <form id="task_2">
+    <div><input type="text" id="user-name" placeholder="Введіть імя"></div>
+    <div><input type="text" id="user-surname" placeholder="Введвть прізвище"></div>
+    <div><input type="text" id="user-email" placeholder="Введіть вашу пошту"></div>
+    <div><input type="tel" id="user-phone" placeholder="+380XX-XXX-XX-XX"></div>
+    <div>
+      <select id="user-city">
+        <option value="Оберіть Ваше місто">Оберіть Ваше місто</option>
+        <option value="Киев">Киев</option>
+        <option value="Одесса">Одесса</option>
+        <option value="Харьков">Харьков</option>
+        <option value="Львов">Львов</option>
+      </select>
+    </div>
+    <div><input type="button" value="Зберегти" id="btn"></div>
+  </form>
+
+  <hr>
+  <section id="task4">
+    <h1>Task 4</h1>
+    <div></div>
+    <div id="user-input"><input type="text" placeholder="Введвть число"></div>
+    <div></div>
+  </section>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
