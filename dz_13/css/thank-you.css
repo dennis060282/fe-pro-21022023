@@ -4,9 +4,9 @@
 }
 
 :root {
-    --main: #1c46cf;
-    --sub: #00db25;
-    --dark: #10004b;
+    --main: #4f0ed0;
+    --sub: #841cf3;
+    --dark: #e6e20d;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 .container {
     text-align: center;
     padding-top: 40vh;
-    color: white;
+    color: rgb(52, 14, 243);
     text-transform: uppercase;
     font-family: Montserrat, sans-serif;
 }
@@ -28,7 +28,7 @@ a {
     padding: 0.9em 1.4em;
     margin: 1em;
     font-size: 0.7em;
-    background: white;
+    background: rgb(223, 13, 13);
     color: var(--dark);
     text-transform: uppercase;
     border-radius: 10px;
