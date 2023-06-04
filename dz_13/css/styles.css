@@ -1,11 +1,11 @@
 :root {
-    --main: #1c46cf;
+    --main: #84f40c;
     --sub: #00db25;
-    --dark: #10004b;
+    --dark: #2c128a;
 }
 
 header {
-    background-color: white;
+    background-color: rgb(234, 219, 6);
     display: flex;
     width: 100%;
 }
@@ -13,7 +13,7 @@ header {
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: rgb(43, 10, 232);
     overflow: auto;
 }
 
@@ -26,7 +26,7 @@ body {
     display: flex;
     width: inherit;
     padding: 0 10%;
-    box-shadow: 1px 1px 15px 0 #eee;
+    box-shadow: 1px 1px 15px 0 rgb(213, 11, 11);
 }
 
 ul {
@@ -67,7 +67,7 @@ main {
     bottom: 10px;
     right: 10px;
     background: linear-gradient(50deg, white, #eee);
-    box-shadow: 2px 2px 5px #999;
+    box-shadow: 2px 2px 5px rgb(120, 112, 112);
     padding: 1em 1.5em;
     color: var(--dark);
     border-radius: 20px;
@@ -96,7 +96,7 @@ main {
     border-radius: 10px;
     font-size: 0.8em;
     font-weight: bold;
-    color: white;
+    color: rgb(207, 242, 12);
 }
 
 h1 {
@@ -277,7 +277,7 @@ footer {
 }
 
 footer label {
-    color: #fff;
+    color: rgb(64, 13, 174);
 }
 
 footer input {
@@ -304,7 +304,7 @@ footer input {
     width: 300px;
     font-size: 0.6em;
     background: linear-gradient(50deg, red, #d60000);
-    color: white;
+    color: rgb(72, 7, 237);
     border: none;
     text-transform: uppercase;
     font-weight: 600;
@@ -312,7 +312,7 @@ footer input {
 }
 
 .button:last-child {
-    background: linear-gradient(30deg, var(--sub), #00740a);
+    background: linear-gradient(30deg, var(--sub), #6be203);
     height: 50px;
     width: 350px;
 }
@@ -327,7 +327,7 @@ address {
     margin-left: 8px;
     padding: 2px 7px;
     border: none;
-    background-color: red;
+    background-color: rgb(224, 79, 79);
     font-weight: 900;
     font-size: 1.1em;
     color: white;
@@ -347,7 +347,7 @@ p.element {
 
 footer>h2,
 footer>sub {
-    color: white;
+    color: rgb(57, 10, 227);
     text-align: center;
 }
 
@@ -375,7 +375,7 @@ footer>form>div>p {
     font-size: 0.8em;
     margin-top: -12px;
     text-transform: none;
-    color: red;
+    color: rgb(203, 12, 12);
 }
 
 ._js-delete {
@@ -383,7 +383,7 @@ footer>form>div>p {
 }
 
 .green-border {
-    border: 3px solid rgb(2, 255, 2);
+    border: 3px solid rgb(140, 227, 8);
 }
 
 .red-border {
