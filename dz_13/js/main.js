@@ -53,7 +53,7 @@ const pizza = {
           });
           if (isValid === 3) {
             setTimeout(() => {
-              document.location.href = './thank-you/index.html';
+              document.location.href = './thank_you/index.html';
             }, 1000);
           }
         });
