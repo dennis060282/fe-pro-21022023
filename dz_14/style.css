@@ -5,9 +5,9 @@ body {
 
 .comment {
     margin: 10px;
-    background-color: rgb(245, 242, 242);
-    border: 1px solid rgb(221, 220, 220);
-    padding: 10px;
+    background-color: rgb(245, 241, 242);
+    border: 1px solid rgb(221, 221, 220);
+    padding: 12px;
 }
 
 h3 {
@@ -20,7 +20,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.2rem;
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 .number-and-name {
@@ -41,7 +41,7 @@ h3 {
   }
   
   #pagination {
-    margin: 10px;
+    margin: 12px;
     text-align: center;
   }
 
