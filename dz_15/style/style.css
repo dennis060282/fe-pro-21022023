@@ -24,9 +24,9 @@ body * {
 .card{
     min-width: 20%;
     max-width: 30%;
-    border: 1px solid black;
-    border-radius: .5rem;
-    box-shadow: 2px 2px 20px 2px black;
+    border: 1px solid rgb(37, 9, 246);
+    border-radius: .15rem;
+    box-shadow: 2px 2px 20px 2px rgb(31, 29, 29);
     text-align: center;
     padding: 1rem;
 }
@@ -47,19 +47,19 @@ body * {
 }
 
 .card__price{
-    color: green;
+    color: rgb(31, 20, 246);
 }
 
 .card__category{
-    background-color: rgb(156, 156, 156);
+    background-color: rgb(241, 24, 35);
     padding: .4rem;
     border-radius: .2rem;
     display: inline-flex;
 }
 
 .card__btn{
-    background-color: blue;
-    color: white;
+    background-color: rgb(40, 8, 224);
+    color: rgb(139, 234, 6);
     padding: .5rem 1rem;
     width: 90%;
 }
